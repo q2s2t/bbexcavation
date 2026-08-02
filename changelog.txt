@@ -1,0 +1,47 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2026-08-02
+  Minor Features:
+    - Added support for including excavated tiles in blueprints and placing them with construction robots.
+    - Added a startup setting for overriding the excavated tile per surface, including an "any" fallback for other surfaces.
+  Modding:
+    - Added a configuration interface that allows other mods to customize excavation tiles, technology prerequisites and costs, and recipe ingredients.
+  Graphics:
+    - Added HD graphics provided by Ingo_Igel.
+    - Renamed blasting charges to excavation explosives and updated their item, recipe, technology, sounds, weight, and crafting requirements.
+  Changes:
+    - Reworked surface-specific excavation, with shallow water on Nauvis and Gleba, lava on Vulcanus, shallow oil ocean on Fulgora, and brash ice on Aquilo.
+    - Updated technology prerequisites, research costs, and recipe ingredients when Space Age is enabled.
+    - Renamed the mod to Blueberry Excavation and changed its internal name to "bbexcavation" as part of a complete rewrite for Factorio 2.1.
+    - Migrates existing blasting charges in player and entity inventories and on the ground while preserving stack quality.
+    - Migrates existing technology research progress and recipe unlocks where possible.
+  Bugfixes:
+    - Fixed offshore pumps placed from cross-surface blueprints not recognizing the surface-specific excavated fluid tile until rebuilt.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.0
+Date: 04. 01. 2025
+  Changes:
+    - Added support for Space Age
+    - Blasting charges now produce appropriate fluid tiles on all planets
+    - Blasting charges no longer damage nearby entities, explosion is only cosmetic
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 30. 12. 2024
+  Changes:
+    - Updated to Factorio 2.0
+---------------------------------------------------------------------------------------------------
+Version: 1.1.8
+Date: 26. 11. 2020
+  Changes:
+    - Updated to Factorio 1.1
+---------------------------------------------------------------------------------------------------
+Version: 1.1.7
+Date: 24. 01. 2020
+  Bugfixes:
+    - Fixed crash when placing tiles in editor mode (thanks JD-Plays)
+---------------------------------------------------------------------------------------------------
+Version: 1.1.6
+Date: 23. 01. 2020
+  Changes:
+    - Updated to 0.18
+    - Crafting recipe now uses cliff explosives
