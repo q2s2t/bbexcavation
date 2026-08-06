@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+Date: 2026-08-06
+  Minor Features:
+    - Added an "ignore" surface-tile option that preserves the original tile after excavation.
+  Modding:
+    - Added a mod-data configuration API that lets other mods extend the configuration.
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 2026-08-05
+  Minor Features:
+    - Added a recycling recipe for excavation explosives.
+---------------------------------------------------------------------------------------------------
 Version: 2.0.0
 Date: 2026-08-02
   Minor Features:

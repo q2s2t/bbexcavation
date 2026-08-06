@@ -5,7 +5,7 @@ if not mods[compat] then return end
 data:extend({{
   type = "mod-data",
   name = "bbexcavation-config-compat-"..compat,
-  data_type = api.config_data_type,
+  data_type = api.config.data_type,
   data = {
 
     source = compat,
@@ -40,6 +40,7 @@ data:extend({{
       { type = "item", name = "barrel", amount = 1 },
       { type = "item", name = "carbon-fiber", amount = 10 },
       { type = "item", name = "cliff-explosives", amount = 5 },
+      { type = "item", name = "landfill", amount = 1 },
     }
 
   }

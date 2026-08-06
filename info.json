@@ -1,11 +1,11 @@
 {
 	"name": "bbexcavation",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"title": "Blueberry Excavation",
 	"author": "q2s2t",
   "contact": "qr+factorio@bleu.gdn",
   "homepage": "https://mods.factorio.com/mod/bbexcavation",
-	"description": "Adds excavation explosives that let you dig fluid-filled holes. Fork of Explosive Excavation by GotLag. Retexture by Ingo_Igel.",
+	"description": "Adds excavation explosives that let you dig \"waterfill\". Fork of Explosive Excavation by GotLag. Retexture by Ingo_Igel.",
 	"factorio_version": "2.1",
 	"dependencies": [
 		"? space-age",
