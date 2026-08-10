@@ -8,12 +8,10 @@ prototype from your mod's `data.lua`. Configuration is collected during
 Every field is optional. The following example shows the available fields:
 
 ```lua
-local api = require("__bbexcavation__/api")
-
 data:extend({{
   type = "mod-data",
   name = "my-mod-bbexcavation-config",
-  data_type = api.config.data_type,
+  data_type = "bbexcavation.config.v0",
   data = {
     -- Identifies the configuration provider in diagnostics.
     source = "my-mod",

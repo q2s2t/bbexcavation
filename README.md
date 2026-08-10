@@ -1,13 +1,11 @@
 # Blueberry Excavation
 
-Adds excavation explosives that let you dig \"waterfill\". Fork of Explosive Excavation by GotLag. Retexture by Ingo_Igel.
+Adds excavation explosives that let you dig "waterfill". Fork of Explosive Excavation by GotLag. Retexture by Ingo_Igel.
 
 ## Features
 
-- Create water by excavating terrain.
-- Use excavation explosives manually or with construction robots.
-- Include excavated tiles in blueprints.
-- Use surface-specific excavation results with Space Age.
+- Create "water"-fill by excavating terrain.
+- Use excavation explosives manually or with blueprints.
 - Tiles are configurables through a startup setting.
 
 ## Space Age support
@@ -30,6 +28,8 @@ On other surfaces, excavation produces water by default.
 - Space Age
 - Existing progress from **Explosive Excavation** is migrated when possible. Recipes can differs so check your assemblers.
 
+Mod authors can customize generated technologies through the [mod integration API](https://github.com/q2s2t/bbexcavation/blob/main/MODDING.md).
+
 ## Configuration
 
 The defaults are ready to play but user settings can:
@@ -42,4 +42,4 @@ The defaults are ready to play but user settings can:
 - Ingo_Igel - [HD graphics](https://mods.factorio.com/mod/Explosive%20Excavation/discussion/67816c3abbf12593d52a5a06)
 
 ***
-With ❤️ from [q2s2t](https://mods.factorio.com/user/q2s2t)
+With ❤️ from [q2s2t](https://mods.factorio.com/user/q2s2t) | [☝️ Feedback is welcome!](https://mods.factorio.com/mod/bbexcavation/discussion)
