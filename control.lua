@@ -20,14 +20,14 @@ end
 script.on_event(defines.events.on_player_built_tile, function(event)
   if not event.item then return end
   if not event.item.valid then return end
-  if not event.item.name == "bbexcavation-explosives" then return end
+  if event.item.name ~= "bbexcavation-explosives" then return end
   place_tiles(game.players[event.player_index], event.tiles)
 end)
 
 script.on_event(defines.events.on_robot_built_tile, function(event)
   if not event.item then return end
   if not event.item.valid then return end
-  if not event.item.name == "bbexcavation-explosives" then return end
+  if event.item.name ~= "bbexcavation-explosives" then return end
   place_tiles(event.robot, event.tiles)
 end)
 
